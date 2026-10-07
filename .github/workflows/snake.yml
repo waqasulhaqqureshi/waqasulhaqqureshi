@@ -19,21 +19,19 @@ jobs:
       - name: Check out the profile repository
         uses: actions/checkout@v4
 
-      - name: Generate the dated contribution calendars
-        run: python .github/scripts/generate_contributions.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: ${{ github.repository_owner }}
-
       - name: Generate the contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contributions.svg
-            dist/github-contributions-dark.svg
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Add live dates and weekday labels to the snake
+        run: python .github/scripts/generate_contributions.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
 
       - name: Publish the generated SVGs
         uses: crazy-max/ghaction-github-pages@v3.1.0
