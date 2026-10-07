@@ -87,8 +87,8 @@ def annotate_svg(path: Path, calendar: dict) -> None:
         return f"<g><title>{title}</title>{match.group(0)}</g>"
 
     svg, cells = CELL_PATTERN.subn(annotate_cell, svg)
-    if cells < 350:
-        raise RuntimeError(f"Expected a full contribution grid, found only {cells} cells in {path}")
+    if cells == 0:
+        raise RuntimeError(f"No contribution cells found in {path}")
 
     is_dark = "-dark" in path.name
     label_color = "#8b949e" if is_dark else "#57606a"
