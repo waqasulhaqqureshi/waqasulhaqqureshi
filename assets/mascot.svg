@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340" width="260" height="260" role="img" aria-label="A friendly purple robot mascot firing a party popper">
+  <ellipse cx="150" cy="326" rx="64" ry="8" fill="#000" opacity="0.25">
+    <animate attributeName="rx" values="64;54;64" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" keyTimes="0;0.5;1" dur="3s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    <!-- legs -->
+    <rect x="115" y="288" width="24" height="26" rx="8" fill="#4527a0"/>
+    <rect x="161" y="288" width="24" height="26" rx="8" fill="#4527a0"/>
+    <!-- left arm (down) -->
+    <line x1="104" y1="228" x2="72" y2="268" stroke="#7e57c2" stroke-width="17" stroke-linecap="round"/>
+    <circle cx="70" cy="270" r="11" fill="#b39ddb"/>
+    <!-- body -->
+    <rect x="100" y="198" width="100" height="98" rx="26" fill="#7e57c2" stroke="#4527a0" stroke-width="3"/>
+    <circle cx="150" cy="246" r="17" fill="#1b0f33"/>
+    <text x="150" y="252" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-weight="700" font-size="16" fill="#7fffd4">&lt;/&gt;</text>
+    <!-- right arm (raised) -->
+    <line x1="196" y1="226" x2="236" y2="194" stroke="#7e57c2" stroke-width="17" stroke-linecap="round"/>
+    <!-- head -->
+    <line x1="150" y1="102" x2="150" y2="72" stroke="#4527a0" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="150" cy="64" r="10" fill="#ffb74d">
+      <animate attributeName="r" values="9;12;9" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="152" r="11" fill="#5e35b1"/>
+    <circle cx="220" cy="152" r="11" fill="#5e35b1"/>
+    <rect x="85" y="100" width="130" height="104" rx="34" fill="#9575cd" stroke="#4527a0" stroke-width="3"/>
+    <rect x="100" y="116" width="100" height="72" rx="24" fill="#1b0f33"/>
+    <ellipse cx="128" cy="148" rx="9" ry="11" fill="#7fffd4">
+      <animate attributeName="ry" values="11;11;1;11;11" keyTimes="0;0.9;0.94;0.98;1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="172" cy="148" rx="9" ry="11" fill="#7fffd4">
+      <animate attributeName="ry" values="11;11;1;11;11" keyTimes="0;0.9;0.94;0.98;1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <path d="M132 168 Q150 183 168 168" fill="none" stroke="#7fffd4" stroke-width="4.5" stroke-linecap="round"/>
+    <circle cx="112" cy="168" r="5" fill="#ff80ab" opacity="0.55"/>
+    <circle cx="188" cy="168" r="5" fill="#ff80ab" opacity="0.55"/>
+    <!-- hand + party popper -->
+    <circle cx="238" cy="192" r="12" fill="#b39ddb"/>
+    <g transform="translate(240 190) rotate(35)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="-4 0 0;4 0 0;-4 0 0" dur="0.7s" repeatCount="indefinite"/>
+        <polygon points="0,0 -15,-48 15,-48" fill="#26c6da" stroke="#00838f" stroke-width="2" stroke-linejoin="round"/>
+        <line x1="-8" y1="-24" x2="9" y2="-30" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+        <line x1="-4" y1="-10" x2="4" y2="-13" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+        <ellipse cx="0" cy="-48" rx="15" ry="4.5" fill="#00838f"/>
+      </g>
+    </g>
+    <!-- confetti burst from the popper opening -->
+    <g transform="translate(266 146)">
+    <g opacity="0"><animateMotion dur="2.20s" begin="0.00s" repeatCount="indefinite" path="M0 0 Q8.6 -81.2 22.3 90" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.20s" begin="0.00s" repeatCount="indefinite"/>
+      <circle r="3.4" fill="#ffca28"/>
+    </g>
+    <g opacity="0"><animateMotion dur="2.45s" begin="0.13s" repeatCount="indefinite" path="M0 0 Q22.8 -132.7 46.0 113" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.45s" begin="0.13s" repeatCount="indefinite"/>
+      <rect x="-3" y="-5" width="6" height="10" rx="1" fill="#ef5350"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="2.45s" begin="0.13s" repeatCount="indefinite"/></rect>
+    </g>
+    <g opacity="0"><animateMotion dur="2.70s" begin="0.26s" repeatCount="indefinite" path="M0 0 Q23.3 -96.0 46.8 136" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.70s" begin="0.26s" repeatCount="indefinite"/>
+      <rect x="-3" y="-5" width="6" height="10" rx="1" fill="#66bb6a"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="2.70s" begin="0.26s" repeatCount="indefinite"/></rect>
+    </g>
+    <g opacity="0"><animateMotion dur="2.95s" begin="0.39s" repeatCount="indefinite" path="M0 0 Q44.8 -140.4 82.6 109" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.95s" begin="0.39s" repeatCount="indefinite"/>
+      <circle r="3.4" fill="#42a5f5"/>
+    </g>
+    <g opacity="0"><animateMotion dur="2.20s" begin="0.52s" repeatCount="indefinite" path="M0 0 Q41.8 -103.2 77.6 132" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.20s" begin="0.52s" repeatCount="indefinite"/>
+      <rect x="-3" y="-5" width="6" height="10" rx="1" fill="#ab47bc"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="2.20s" begin="0.52s" repeatCount="indefinite"/></rect>
+    </g>
+    <g opacity="0"><animateMotion dur="2.45s" begin="0.65s" repeatCount="indefinite" path="M0 0 Q34.7 -68.9 65.9 105" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.45s" begin="0.65s" repeatCount="indefinite"/>
+      <rect x="-3" y="-5" width="6" height="10" rx="1" fill="#ff7043"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="2.45s" begin="0.65s" repeatCount="indefinite"/></rect>
+    </g>
+    <g opacity="0"><animateMotion dur="2.70s" begin="0.78s" repeatCount="indefinite" path="M0 0 Q62.8 -101.1 112.7 128" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.70s" begin="0.78s" repeatCount="indefinite"/>
+      <circle r="3.4" fill="#ffca28"/>
+    </g>
+    <g opacity="0"><animateMotion dur="2.95s" begin="0.91s" repeatCount="indefinite" path="M0 0 Q52.5 -68.3 95.5 101" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.95s" begin="0.91s" repeatCount="indefinite"/>
+      <rect x="-3" y="-5" width="6" height="10" rx="1" fill="#ef5350"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="2.95s" begin="0.91s" repeatCount="indefinite"/></rect>
+    </g>
+    <g opacity="0"><animateMotion dur="2.20s" begin="1.04s" repeatCount="indefinite" path="M0 0 Q84.7 -88.2 149.2 124" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.20s" begin="1.04s" repeatCount="indefinite"/>
+      <rect x="-3" y="-5" width="6" height="10" rx="1" fill="#66bb6a"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="2.20s" begin="1.04s" repeatCount="indefinite"/></rect>
+    </g>
+    <g opacity="0"><animateMotion dur="2.45s" begin="1.17s" repeatCount="indefinite" path="M0 0 Q71.2 -57.9 126.6 97" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.45s" begin="1.17s" repeatCount="indefinite"/>
+      <circle r="3.4" fill="#42a5f5"/>
+    </g>
+    <g opacity="0"><animateMotion dur="2.70s" begin="1.30s" repeatCount="indefinite" path="M0 0 Q55.0 -33.3 99.6 120" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.70s" begin="1.30s" repeatCount="indefinite"/>
+      <rect x="-3" y="-5" width="6" height="10" rx="1" fill="#ab47bc"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="2.70s" begin="1.30s" repeatCount="indefinite"/></rect>
+    </g>
+    <g opacity="0"><animateMotion dur="2.95s" begin="0.03s" repeatCount="indefinite" path="M0 0 Q89.1 -37.0 156.5 93" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.95s" begin="0.03s" repeatCount="indefinite"/>
+      <rect x="-3" y="-5" width="6" height="10" rx="1" fill="#ff7043"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="2.95s" begin="0.03s" repeatCount="indefinite"/></rect>
+    </g>
+    <g opacity="0"><animateMotion dur="2.20s" begin="0.16s" repeatCount="indefinite" path="M0 0 Q70.4 -16.5 125.3 116" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.20s" begin="0.16s" repeatCount="indefinite"/>
+      <circle r="3.4" fill="#ffca28"/>
+    </g>
+    <g opacity="0"><animateMotion dur="2.45s" begin="0.29s" repeatCount="indefinite" path="M0 0 Q50.4 -2.9 91.9 139" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.45s" begin="0.29s" repeatCount="indefinite"/>
+      <rect x="-3" y="-5" width="6" height="10" rx="1" fill="#ef5350"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="2.45s" begin="0.29s" repeatCount="indefinite"/></rect>
+    </g>
+    <g opacity="0"><animateMotion dur="2.70s" begin="0.42s" repeatCount="indefinite" path="M0 0 Q83.5 9.7 147.2 112" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.70s" begin="0.42s" repeatCount="indefinite"/>
+      <rect x="-3" y="-5" width="6" height="10" rx="1" fill="#66bb6a"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="2.70s" begin="0.42s" repeatCount="indefinite"/></rect>
+    </g>
+    <g opacity="0"><animateMotion dur="2.95s" begin="0.55s" repeatCount="indefinite" path="M0 0 Q62.0 18.2 111.4 135" keyTimes="0;1" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="2.95s" begin="0.55s" repeatCount="indefinite"/>
+      <circle r="3.4" fill="#42a5f5"/>
+    </g>
+    </g>
+  </g>
+</svg>

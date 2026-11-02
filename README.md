@@ -1,15 +1,25 @@
-# Hi, I'm Waqas Ul Haq Qureshi 👋
+<p align="center">
+  <img src="https://raw.githubusercontent.com/waqasulhaqqureshi/waqasulhaqqureshi/main/assets/banner.svg" alt="Hello World. Welcome to my profile." width="100%" />
+</p>
 
-**Software developer · Flutter, React & Next.js · private, on-device AI**
+<img align="right" width="260" src="https://raw.githubusercontent.com/waqasulhaqqureshi/waqasulhaqqureshi/main/assets/mascot.svg" alt="A friendly robot mascot firing a party popper" />
 
-I build products that keep working when the network, the budget or the user's eyesight is the constraint: apps that run models locally so nothing leaves the phone, and interfaces people can actually use.
+# 🧑‍💻 I'M WAQAS!
+
+*Software developer · Flutter, React & Next.js · private, on-device AI*
+
+I build products that keep working when the network, the budget or the user's eyesight is the constraint: apps that run models locally so nothing you type leaves the phone, and interfaces people can actually use.
 
 - 💼 Software Developer (remote) at **SDL Pro**, a platform for the UK scaffolding and construction industry (since Aug 2026)
 - 🎓 **BS Information Technology**, Ghazi University (2022–2026): CGPA **3.56 / 4.00**, final-semester GPA **3.95**
-- 🔒 Final-year project **[Eliora AI](https://github.com/waqasulhaqqureshi/eliora-ai)**: a Flutter assistant that runs quantized SmolLM / Qwen-class models on the device, offline, with no prompt or reply leaving the phone
+- 🔒 Final-year project **[Eliora AI](https://github.com/waqasulhaqqureshi/eliora-ai)**: a Flutter assistant that runs quantized SmolLM / Qwen-class models on the device, so chats stay offline
 - 🦯 **IoT Blind Assistant**: a wearable prototype (camera, OpenCV, Cloud Vision, text-to-speech, mobile app) that describes objects and text to visually impaired users
 - 🧭 Looking for: a fully funded **MS / research** place in on-device AI, edge computing or accessibility, and software internships
 - 🌐 Portfolio: **[heywaqas.live](https://heywaqas.live)** · 📫 [waqasulhaqqureshi0@gmail.com](mailto:waqasulhaqqureshi0@gmail.com)
+
+![Profile views](https://komarev.com/ghpvc/?username=waqasulhaqqureshi&label=PROFILE+VIEWS&color=7b1fa2&style=flat-square)
+
+<br clear="right" />
 
 ## What problem do I fix?
 
