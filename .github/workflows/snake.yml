@@ -33,6 +33,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
 
+      - name: Generate the activity overview card
+        run: python .github/scripts/generate_activity.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+
       - name: Publish the generated SVGs
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:

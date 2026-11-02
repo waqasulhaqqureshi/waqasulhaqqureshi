@@ -21,6 +21,19 @@ I build products that keep working when the network, the budget or the user's ey
 
 <br clear="right" />
 
+<h2 align="center">My favorite projects 💻</h2>
+
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/waqasulhaqqureshi/eliora-ai"><img src="https://raw.githubusercontent.com/waqasulhaqqureshi/waqasulhaqqureshi/main/assets/card-eliora.svg" alt="Eliora AI: private AI that runs on your phone" width="100%" /></a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/waqasulhaqqureshi/chess_arena"><img src="https://raw.githubusercontent.com/waqasulhaqqureshi/waqasulhaqqureshi/main/assets/card-chess.svg" alt="Chess Arena: Flutter chess with adaptive offline bots" width="100%" /></a>
+    </td>
+  </tr>
+</table>
+
 ## What problem do I fix?
 
 | Problem | What I build |
@@ -40,6 +53,10 @@ I build products that keep working when the network, the budget or the user's ey
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
+
+## Contribution activity
+
+<img alt="Activity overview radar: share of commits, pull requests, issues and code reviews" width="100%" src="https://raw.githubusercontent.com/waqasulhaqqureshi/waqasulhaqqureshi/output/activity-overview.svg" />
 
 ## Contribution snake
 
