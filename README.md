@@ -29,7 +29,7 @@ I build products that keep working when the network, the budget or the user's ey
       <a href="https://github.com/waqasulhaqqureshi/eliora-ai"><img src="https://raw.githubusercontent.com/waqasulhaqqureshi/waqasulhaqqureshi/main/assets/card-eliora.svg" alt="Eliora AI: private AI that runs on your phone" width="100%" /></a>
     </td>
     <td width="50%">
-      <a href="https://github.com/waqasulhaqqureshi/chess_arena"><img src="https://raw.githubusercontent.com/waqasulhaqqureshi/waqasulhaqqureshi/main/assets/card-chess.svg" alt="Chess Arena: Flutter chess with adaptive offline bots" width="100%" /></a>
+      <a href="https://github.com/waqasulhaqqureshi/iot-blind-assistant"><img src="https://raw.githubusercontent.com/waqasulhaqqureshi/waqasulhaqqureshi/main/assets/card-blind-assistant.svg" alt="IoT Blind Assistant: course prototype that narrates objects and text for visually impaired users" width="100%" /></a>
     </td>
   </tr>
 </table>
