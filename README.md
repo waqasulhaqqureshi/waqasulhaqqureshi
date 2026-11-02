@@ -6,7 +6,7 @@ I build products that keep working when the network, the budget or the user's ey
 
 - 💼 Software Developer (remote) at **SDL Pro**, a platform for the UK scaffolding and construction industry (since Aug 2026)
 - 🎓 **BS Information Technology**, Ghazi University (2022–2026): CGPA **3.56 / 4.00**, final-semester GPA **3.95**
-- 🔒 Final-year project **Eliora AI**: a Flutter assistant that runs quantized SmolLM / Qwen-class models on the device, offline, with no prompt or reply leaving the phone
+- 🔒 Final-year project **[Eliora AI](https://github.com/waqasulhaqqureshi/eliora-ai)**: a Flutter assistant that runs quantized SmolLM / Qwen-class models on the device, offline, with no prompt or reply leaving the phone
 - 🦯 **IoT Blind Assistant**: a wearable prototype (camera, OpenCV, Cloud Vision, text-to-speech, mobile app) that describes objects and text to visually impaired users
 - 🧭 Looking for: a fully funded **MS / research** place in on-device AI, edge computing or accessibility, and software internships
 - 🌐 Portfolio: **[heywaqas.live](https://heywaqas.live)** · 📫 [waqasulhaqqureshi0@gmail.com](mailto:waqasulhaqqureshi0@gmail.com)
