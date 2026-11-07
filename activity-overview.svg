@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" role="img" aria-label="Activity overview: 89 commits, 1 pull requests, 6 issues and 0 code reviews in the last year">
+  <rect width="800" height="300" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <text x="32" y="44" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#e6edf3">Activity overview</text>
+  <text x="32" y="68" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8b949e">598 contributions in the last year</text>
+  <g font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#c9d1d9">
+    <text x="32" y="124">Commits</text><text x="190" y="124" text-anchor="end" font-weight="600">89</text>
+    <text x="32" y="152">Pull requests</text><text x="190" y="152" text-anchor="end" font-weight="600">1</text>
+    <text x="32" y="180">Issues</text><text x="190" y="180" text-anchor="end" font-weight="600">6</text>
+    <text x="32" y="208">Code reviews</text><text x="190" y="208" text-anchor="end" font-weight="600">0</text>
+  </g>
+  <line x1="260" y1="30" x2="260" y2="270" stroke="#30363d"/>
+  <g stroke="#3d444d" stroke-width="1">
+    <line x1="400" y1="52" x2="400" y2="228"/>
+    <line x1="312" y1="140" x2="488" y2="140"/>
+  </g>
+  <polygon points="400.0,140.0 405.9,140.0 400.0,141.0 312.0,140.0" fill="#2ea043" fill-opacity="0.75" stroke="#7ee787" stroke-width="1.5" stroke-linejoin="round"/>
+  <circle cx="400.0" cy="140.0" r="3.5" fill="#7ee787"/><circle cx="405.9" cy="140.0" r="3.5" fill="#7ee787"/><circle cx="400.0" cy="141.0" r="3.5" fill="#7ee787"/><circle cx="312.0" cy="140.0" r="3.5" fill="#7ee787"/>
+  <g font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">
+    <text x="400" y="30">0%</text><text x="400" y="44">Code review</text>
+    <text x="400" y="248">1%</text><text x="400" y="262">Pull requests</text>
+    <text x="298" y="136" text-anchor="end">93%</text><text x="298" y="152" text-anchor="end">Commits</text>
+    <text x="502" y="136" text-anchor="start">6%</text><text x="502" y="152" text-anchor="start">Issues</text>
+  </g>
+</svg>
