@@ -54,9 +54,9 @@ I build products that keep working when the network, the budget or the user's ey
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
 
-## GitHub metrics
+## Contribution activity
 
-<img src="https://raw.githubusercontent.com/waqasulhaqqureshi/waqasulhaqqureshi/main/metrics.svg" alt="Live GitHub profile metrics showing contribution activity, coding habits, languages, topics, achievements and an isometric calendar" width="100%" />
+<img alt="Activity overview radar: share of commits, pull requests, issues and code reviews" width="100%" src="https://raw.githubusercontent.com/waqasulhaqqureshi/waqasulhaqqureshi/output/activity-overview.svg" />
 
 ## Contribution snake
 
